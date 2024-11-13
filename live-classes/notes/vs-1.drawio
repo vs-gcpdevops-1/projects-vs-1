@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="V9nC6uB06fC6NqD5rrMz">
     <mxGraphModel dx="1644" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -530,88 +530,268 @@
         <mxCell id="eraY_jL0lMnc_5WhhBDK-28" value="Load Balancer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="4050" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-1" value="20v" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-1" value="20v" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="375" y="4200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgzeokeh8HAWxjrxN6c1-2" target="Qgzeokeh8HAWxjrxN6c1-6">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qgzeokeh8HAWxjrxN6c1-2" target="Qgzeokeh8HAWxjrxN6c1-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-2" value="GCP Networking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-2" value="GCP Networking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="275" y="4340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qgzeokeh8HAWxjrxN6c1-3" target="Qgzeokeh8HAWxjrxN6c1-4">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Qgzeokeh8HAWxjrxN6c1-3" target="Qgzeokeh8HAWxjrxN6c1-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="120" y="4460" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="315" y="4460" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.766;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qgzeokeh8HAWxjrxN6c1-6" target="Qgzeokeh8HAWxjrxN6c1-9">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.766;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Qgzeokeh8HAWxjrxN6c1-6" target="Qgzeokeh8HAWxjrxN6c1-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="4430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-6" value="VPC&lt;br&gt;Virtual Private Cloud" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-6" value="VPC&lt;br&gt;Virtual Private Cloud" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="485" y="4340" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-9" value="VPC is a global resource&lt;div&gt;Subnets in GCp is designated to a particular region&lt;/div&gt;&lt;div&gt;Subnet holds fragmented ip address&lt;/div&gt;&lt;div&gt;Subnet : Public or Private&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-9" value="VPC is a global resource&lt;div&gt;Subnets in GCp is designated to a particular region&lt;/div&gt;&lt;div&gt;Subnet holds fragmented ip address&lt;/div&gt;&lt;div&gt;Subnet : Public or Private&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="4460" width="195" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qgzeokeh8HAWxjrxN6c1-11" target="Qgzeokeh8HAWxjrxN6c1-12">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Qgzeokeh8HAWxjrxN6c1-11" target="Qgzeokeh8HAWxjrxN6c1-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-11" value="an ocean of ip" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-11" value="an ocean of ip" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="50" y="4590" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgzeokeh8HAWxjrxN6c1-12" target="Qgzeokeh8HAWxjrxN6c1-15">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qgzeokeh8HAWxjrxN6c1-12" target="Qgzeokeh8HAWxjrxN6c1-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-12" value="10.10.0.0/28" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-12" value="10.10.0.0/28" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="4630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-14" value="CIDR RANGE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-14" value="CIDR RANGE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="4710" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-15" value="32 bits&lt;br&gt;2^32&amp;nbsp;&lt;br&gt;&lt;br&gt;2^32-2^28=2^4=16ips&lt;div&gt;10.10.0.0 ~ 10.10.0.15&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-15" value="32 bits&lt;br&gt;2^32&amp;nbsp;&lt;br&gt;&lt;br&gt;2^32-2^28=2^4=16ips&lt;div&gt;10.10.0.0 ~ 10.10.0.15&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="4610" width="165" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="300" y="4620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgzeokeh8HAWxjrxN6c1-20" target="Qgzeokeh8HAWxjrxN6c1-21">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qgzeokeh8HAWxjrxN6c1-20" target="Qgzeokeh8HAWxjrxN6c1-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-20" value="VPC" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-20" value="VPC" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="120" y="4760" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgzeokeh8HAWxjrxN6c1-21" target="Qgzeokeh8HAWxjrxN6c1-23">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qgzeokeh8HAWxjrxN6c1-21" target="Qgzeokeh8HAWxjrxN6c1-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-21" value="Firewall Rules" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-21" value="Firewall Rules" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="120" y="4880" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-23" value="Control traffic in and out of your vpc" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-23" value="Control traffic in and out of your vpc" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="4850" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qgzeokeh8HAWxjrxN6c1-25" target="Qgzeokeh8HAWxjrxN6c1-26">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Qgzeokeh8HAWxjrxN6c1-25" target="Qgzeokeh8HAWxjrxN6c1-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-25" value="Vpc 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-25" value="Vpc 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="135" y="5040" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-26" value="vpc 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-26" value="vpc 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="315" y="5040" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-28" value="VPC Peering" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-28" value="VPC Peering" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="5050" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-29" value="&lt;p style=&quot;language:en-IN;line-height:21.8pt;mso-line-height-rule:exactly;&lt;br/&gt;margin-top:0pt;margin-bottom:0pt;margin-left:.43in;margin-right:.01in;&lt;br/&gt;text-align:left;direction:ltr;unicode-bidi:embed;tab-stops:left 129.95pt left 160.0pt left 221.65pt left 304.4pt left 394.6pt left 480.7pt left 528.5pt left 599.4pt left 685.55pt;&lt;br/&gt;mso-line-break-override:none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.05pt;&quot;&gt;N&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.3pt;&quot;&gt;et&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.45pt;&quot;&gt;w&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.5pt;&quot;&gt;ork&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.75pt;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.05pt;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.8pt;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 2.1pt;&quot;&gt;m&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.05pt;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.3pt;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.25pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.1pt;&quot;&gt;ojec&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1pt;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.3pt;&quot;&gt;d&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.75pt;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.4pt;&quot;&gt;f&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.65pt;&quot;&gt;f&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.05pt;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.3pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.25pt;&quot;&gt;ent&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.3pt;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.25pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.1pt;&quot;&gt;ojec&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.3pt;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.8pt;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.14pt;&quot;&gt;nd&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.8pt;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.95pt;&quot;&gt;c&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.25pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.05pt;&quot;&gt;os&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.3pt;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.25pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.1pt;&quot;&gt;ojec&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.3pt;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.75pt;&quot;&gt;in&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.15pt;&quot;&gt;different&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -2.2pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.35pt;&quot;&gt;organizations&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -2.2pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.2pt;&quot;&gt;can&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -2.2pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.6pt;&quot;&gt;be&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -2.2pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.35pt;&quot;&gt;peered&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-29" value="&lt;p style=&quot;language:en-IN;line-height:21.8pt;mso-line-height-rule:exactly;&lt;br/&gt;margin-top:0pt;margin-bottom:0pt;margin-left:.43in;margin-right:.01in;&lt;br/&gt;text-align:left;direction:ltr;unicode-bidi:embed;tab-stops:left 129.95pt left 160.0pt left 221.65pt left 304.4pt left 394.6pt left 480.7pt left 528.5pt left 599.4pt left 685.55pt;&lt;br/&gt;mso-line-break-override:none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.05pt;&quot;&gt;N&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.3pt;&quot;&gt;et&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.45pt;&quot;&gt;w&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.5pt;&quot;&gt;ork&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.75pt;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.05pt;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.8pt;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 2.1pt;&quot;&gt;m&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.05pt;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.3pt;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.25pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.1pt;&quot;&gt;ojec&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1pt;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.3pt;&quot;&gt;d&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.75pt;&quot;&gt;i&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.4pt;&quot;&gt;f&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.65pt;&quot;&gt;f&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.05pt;&quot;&gt;e&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.3pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.25pt;&quot;&gt;ent&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.3pt;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.25pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.1pt;&quot;&gt;ojec&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.3pt;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.8pt;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.14pt;&quot;&gt;nd&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.8pt;&quot;&gt;a&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.95pt;&quot;&gt;c&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.25pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.05pt;&quot;&gt;os&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 1.3pt;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.25pt;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.1pt;&quot;&gt;ojec&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.3pt;&quot;&gt;t&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -0.9pt;&quot;&gt;s&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.75pt;&quot;&gt;in&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.15pt;&quot;&gt;different&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -2.2pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.35pt;&quot;&gt;organizations&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -2.2pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.2pt;&quot;&gt;can&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -2.2pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.6pt;&quot;&gt;be&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: -2.2pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;MS UI Gothic&amp;quot;; color: rgb(33, 33, 33); letter-spacing: 0.35pt;&quot;&gt;peered&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="5030" width="220" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Qgzeokeh8HAWxjrxN6c1-30" value="No ip address can overlap each other" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Qgzeokeh8HAWxjrxN6c1-30" value="No ip address can overlap each other" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="235" y="5100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="5330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-1" value="SCM" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="5230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-2" value="Files day in and out and also have to keep a track of the files" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="465" y="5210" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-4" value="CVCS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="5330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-5" value="DVCS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="5340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-1" target="d8PJjydQ5pS0lwnVSFS_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-9" value="Place code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="5420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-10" target="d8PJjydQ5pS0lwnVSFS_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="5510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-11" target="d8PJjydQ5pS0lwnVSFS_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-11" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="5510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-12" target="d8PJjydQ5pS0lwnVSFS_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="5510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-16" value="Centralized Version Control System" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="5340" width="65" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-18" value="Distributed Version Control System" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="5320" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-19" value="Central Place to Store" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="398" y="5420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-20" target="d8PJjydQ5pS0lwnVSFS_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-20" value="Local Repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="5510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-21" value="Local Repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="5510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-22" target="d8PJjydQ5pS0lwnVSFS_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-22" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="5600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-23" target="d8PJjydQ5pS0lwnVSFS_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-23" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="5600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-27" value="Subversion, HelixCore" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="5400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-28" value="Git, perforce, mercurial" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="5380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-29" value="Git" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="235" y="5700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-30" value="Git Lifecycle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="5760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-32" target="d8PJjydQ5pS0lwnVSFS_-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-32" value="Working dir" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="25" y="5800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-34" target="d8PJjydQ5pS0lwnVSFS_-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-34" value="Staging Area" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="195" y="5800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-36" target="d8PJjydQ5pS0lwnVSFS_-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-36" value="Commit" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="5810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-37" value="Commit id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="5780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-38" value="Push" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="545" y="5810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-40" target="d8PJjydQ5pS0lwnVSFS_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-40" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="5950" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-41" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="6130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-42" value="Client side" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="5975" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-43" value="Server side" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="6170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-44" value="Git" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="6070" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-45" value="Github, Gitlab" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="6005" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-47" value="Netflix 1.0" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="6055" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-49" target="d8PJjydQ5pS0lwnVSFS_-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-49" value="Organization" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="385" y="5920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8PJjydQ5pS0lwnVSFS_-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="6165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-51" value="Repositories" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="385" y="6045" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="d8PJjydQ5pS0lwnVSFS_-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="6205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-53" value="Tags" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="520" y="6165" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-54" value="Mutable Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="6255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-55" value="Branches" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="6170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-56" value="1.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="6031" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-57" value="2.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="6078" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-58" value="Immutable" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="538" y="6255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-59" value="Today" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="6080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-62" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="6170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-63" value="a.py,b.java.c.txt,password" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="6245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8PJjydQ5pS0lwnVSFS_-64" value="Fork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="6260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
