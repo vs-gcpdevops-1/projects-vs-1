@@ -1,0 +1,41 @@
+variable "x" {
+    default = 100
+}
+
+Varibales are mostly 4 types- :
+1. Integer
+2. String
+3. List 
+4. Map
+
+variable "y" {
+    default = "India"
+}
+
+variable "y_list" {
+   default = ["abc","cad",7]
+}
+positional value -- y_list[0],y_list[1],y_list[n]
+
+variable "z_map" {
+   default = {
+    x = 10
+    y = 20
+   }
+}
+
+these values are picked by the key names - z_map[x]
+
+output -- this TF object means "anything to print in TF"
+
+output "xyz" {
+    value = var.x
+}
+
+#int, list , map , bool , string
+#var.variablename -- referencing a variable
+
+# 1. var.tf  - plain vanila way of defining Varibales
+# 2. *.tfvars --> it can solve the problem of defining environment based Varibales
+# 3. *.auto.tfvars --> it can be to preload varibales and also u can pass common variables
+
