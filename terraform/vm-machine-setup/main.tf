@@ -8,8 +8,8 @@ resource "google_compute_instance" "vm-from-tf" {
   allow_stopping_for_update = true
 
   network_interface {
-    network = "custom-vpc-tf"
-    subnetwork = "sub-sg"
+    network    = google_compute_network.custom-vpc-tf.id
+    subnetwork = google_compute_subnetwork.sub-sg.self_link
     access_config {
       // Ephemeral public IP
     }
@@ -52,6 +52,11 @@ resource "google_compute_instance" "vm-from-tf" {
       attached_disk
     ]
   }
+
+  depends_on = [
+    google_compute_network.custom-vpc-tf,
+    google_compute_subnetwork.sub-sg
+  ]
 
 }
 
