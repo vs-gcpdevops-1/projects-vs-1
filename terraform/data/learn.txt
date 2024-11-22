@@ -1,0 +1,7 @@
+Data Block in TF is an object that can help us to fetch dyanmic values either internally or externally.
+
+resource "resourcename as defined by terraform" "local resource identification name" {
+    arguments .....
+}
+
+resource -- 

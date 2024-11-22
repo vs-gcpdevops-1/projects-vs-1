@@ -1,0 +1,15 @@
+print 1-10
+echo 1
+Repeat unitl condition is met.
+
+for i in range(10):
+ print(i)
+
+i=1
+print 1
+i=i+1 = 1+1=2
+print 2
+
+Plain looping via index in TF can be done by - count (keyword) = 0,1,2 [count.index]
+for_each
+

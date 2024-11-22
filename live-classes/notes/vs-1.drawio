@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="V9nC6uB06fC6NqD5rrMz">
-    <mxGraphModel dx="1644" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1884" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -928,121 +928,151 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-1" target="mH4LMW_0R3JJvjo0JnKr-2">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-1" target="mH4LMW_0R3JJvjo0JnKr-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-1" target="mH4LMW_0R3JJvjo0JnKr-5">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-1" target="mH4LMW_0R3JJvjo0JnKr-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-1" value="Infrastructure Automation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-1" value="Infrastructure Automation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="325" y="7150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-2" target="mH4LMW_0R3JJvjo0JnKr-3">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-2" target="mH4LMW_0R3JJvjo0JnKr-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-2" target="mH4LMW_0R3JJvjo0JnKr-4">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-2" target="mH4LMW_0R3JJvjo0JnKr-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-2" value="scripting via&amp;nbsp;&lt;br&gt;Shell&lt;div&gt;Python&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-2" value="scripting via&amp;nbsp;&lt;br&gt;Shell&lt;div&gt;Python&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="200" y="7180" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-3" value="100 VM in GCP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-3" value="100 VM in GCP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="55" y="7160" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-4" value="Problems ?&lt;div&gt;1. if our script fails , then is no going back and start from first&lt;/div&gt;&lt;div&gt;2. Less redundant&lt;/div&gt;&lt;div&gt;3. there is no possibility to track the changes on the resource&lt;/div&gt;&lt;div&gt;4. Very less availablity of APIS&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-4" value="Problems ?&lt;div&gt;1. if our script fails , then is no going back and start from first&lt;/div&gt;&lt;div&gt;2. Less redundant&lt;/div&gt;&lt;div&gt;3. there is no possibility to track the changes on the resource&lt;/div&gt;&lt;div&gt;4. Very less availablity of APIS&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="80" y="7300" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-5">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="7330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-5" target="mH4LMW_0R3JJvjo0JnKr-12">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-5" target="mH4LMW_0R3JJvjo0JnKr-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-5" value="IAAC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-5" value="IAAC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="380" y="7260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-10" value="&lt;p&gt;IaaC ) is the process of managing and provisioning computer data centres through&lt;/p&gt;&lt;p&gt;machine readable definition files, rather than physical hardware configuration or interactive configuration tools.&lt;/p&gt;&lt;p&gt;The&lt;/p&gt;&lt;p&gt;IT infrastructure managed by this process comprises both physical equipment, such as bare metal servers, as&lt;/p&gt;&lt;p&gt;well as virtual machines, and associated configuration resources. The definitions may be in a version control&lt;/p&gt;&lt;p&gt;system. It can use either scripts or declarative definitions, rather than manual processes, but the term is more&lt;/p&gt;&lt;p&gt;often used to promote declarative approaches.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;2.&amp;nbsp; Portable , Repeatability,&amp;nbsp; Audit&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-10" value="&lt;p&gt;IaaC ) is the process of managing and provisioning computer data centres through&lt;/p&gt;&lt;p&gt;machine readable definition files, rather than physical hardware configuration or interactive configuration tools.&lt;/p&gt;&lt;p&gt;The&lt;/p&gt;&lt;p&gt;IT infrastructure managed by this process comprises both physical equipment, such as bare metal servers, as&lt;/p&gt;&lt;p&gt;well as virtual machines, and associated configuration resources. The definitions may be in a version control&lt;/p&gt;&lt;p&gt;system. It can use either scripts or declarative definitions, rather than manual processes, but the term is more&lt;/p&gt;&lt;p&gt;often used to promote declarative approaches.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;2.&amp;nbsp; Portable , Repeatability,&amp;nbsp; Audit&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="355" y="7340" width="310" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-12" value="Terraform&lt;br&gt;AWS Cloud Formation&lt;div&gt;GCP Deployment Manager&lt;br&gt;Pulumi&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-12" value="Terraform&lt;br&gt;AWS Cloud Formation&lt;div&gt;GCP Deployment Manager&lt;br&gt;Pulumi&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="150" y="7500" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-14" value="&lt;p&gt;1. Cloud Agnostic&lt;/p&gt;&lt;p&gt;2. It is idempotent&lt;/p&gt;&lt;p&gt;3.it has the power to store the status of the infra&lt;/p&gt;&lt;p&gt;4. It is a product of Hasicorp family&lt;/p&gt;&lt;p&gt;5. it follows JSON or HCL syntax.&lt;/p&gt;&lt;p&gt;6. it end with .tf files ( for HCL syntx)&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-14" value="&lt;p&gt;1. Cloud Agnostic&lt;/p&gt;&lt;p&gt;2. It is idempotent&lt;/p&gt;&lt;p&gt;3.it has the power to store the status of the infra&lt;/p&gt;&lt;p&gt;4. It is a product of Hasicorp family&lt;/p&gt;&lt;p&gt;5. it follows JSON or HCL syntax.&lt;/p&gt;&lt;p&gt;6. it end with .tf files ( for HCL syntx)&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="380" y="7700" width="280" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-15" value="Terraform" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-15" value="Terraform" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="7670" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-16" value="Terraform Architecture" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-16" value="Terraform Architecture" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="7910" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-17" target="mH4LMW_0R3JJvjo0JnKr-18">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-17" target="mH4LMW_0R3JJvjo0JnKr-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-17" value="Terraform Core" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-17" value="Terraform Core" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="215" y="7960" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-18" target="mH4LMW_0R3JJvjo0JnKr-24">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-18" target="mH4LMW_0R3JJvjo0JnKr-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-18" value="Providers" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-18" value="Providers" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="418" y="7960" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-19" target="mH4LMW_0R3JJvjo0JnKr-17">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-19" target="mH4LMW_0R3JJvjo0JnKr-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-19" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-19" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="55" y="7970" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-21" value=".tf" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-21" value=".tf" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="8040" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.225;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-21" target="mH4LMW_0R3JJvjo0JnKr-17">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.225;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-21" target="mH4LMW_0R3JJvjo0JnKr-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-24" value="&lt;p&gt;Providers&lt;/p&gt;&lt;p&gt;these are some APIs&lt;/p&gt;&lt;p&gt;that are created by TF to allow us to seamlessly connect to any platform&lt;/p&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-24" value="&lt;p&gt;Providers&lt;/p&gt;&lt;p&gt;these are some APIs&lt;/p&gt;&lt;p&gt;that are created by TF to allow us to seamlessly connect to any platform&lt;/p&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="7970" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-26" value="Terraform Lifecycle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-26" value="Terraform Lifecycle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="8100" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-27" target="mH4LMW_0R3JJvjo0JnKr-30">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-27" target="mH4LMW_0R3JJvjo0JnKr-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-27" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-27" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-5" y="8170" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-28" value="a.tf/main.tf" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-28" value="a.tf/main.tf" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="8250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-29" value="terraform CLI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-29" value="terraform CLI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="35" y="8150" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-30" target="mH4LMW_0R3JJvjo0JnKr-31">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-30" target="mH4LMW_0R3JJvjo0JnKr-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-30" value="Init" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-30" value="Init" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="140" y="8210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-31" target="mH4LMW_0R3JJvjo0JnKr-32">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-31" target="mH4LMW_0R3JJvjo0JnKr-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-31" value="Plan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-31" value="Plan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="280" y="8210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mH4LMW_0R3JJvjo0JnKr-32" target="mH4LMW_0R3JJvjo0JnKr-33">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mH4LMW_0R3JJvjo0JnKr-32" target="mH4LMW_0R3JJvjo0JnKr-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-32" value="Apply" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-32" value="Apply" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="420" y="8210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-33" value="Destroy" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-33" value="Destroy" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="560" y="8210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mH4LMW_0R3JJvjo0JnKr-38" value="+,-,~" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="mH4LMW_0R3JJvjo0JnKr-38" value="+,-,~" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="290" y="8310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-1" value="Terraform is a folder/directory based tool" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="7720" width="137.5" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-2" value="Desired State" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="145" y="8370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-3" value="Actual State" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="345" y="8370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-4" value="TF state file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="8470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-5" value="1. U login ur creds via gcloud&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. u create keys to work&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="528" y="8380" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-6" value="1. variables&lt;div&gt;2. output&lt;/div&gt;&lt;div&gt;3. conditions&lt;/div&gt;&lt;div&gt;4. count&lt;/div&gt;&lt;div&gt;5. loops&lt;/div&gt;&lt;div&gt;6. null_resource&lt;/div&gt;&lt;div&gt;7. dependency&lt;/div&gt;&lt;div&gt;8. data block&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="8500" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-7" value="VM" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="750" y="8360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXV3v7-ebURC8VWlMk4J-8" target="UXV3v7-ebURC8VWlMk4J-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-8" value="VPC" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="735" y="8230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UXV3v7-ebURC8VWlMk4J-10" value="Run an apache webser with some custom html page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="765" y="8400" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
