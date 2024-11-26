@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="Page-1" id="V9nC6uB06fC6NqD5rrMz">
     <mxGraphModel dx="1644" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1074,14 +1074,50 @@
         <mxCell id="UXV3v7-ebURC8VWlMk4J-10" value="Run an apache webser with some custom html page" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="765" y="8400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yxwMWjPsQC5RDo_evFAL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yxwMWjPsQC5RDo_evFAL-1" target="yxwMWjPsQC5RDo_evFAL-2">
+        <mxCell id="yxwMWjPsQC5RDo_evFAL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yxwMWjPsQC5RDo_evFAL-1" target="yxwMWjPsQC5RDo_evFAL-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yxwMWjPsQC5RDo_evFAL-1" value="DRY Principles" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="yxwMWjPsQC5RDo_evFAL-1" value="DRY Principles" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="303" y="8570" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yxwMWjPsQC5RDo_evFAL-2" value="Modules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="yxwMWjPsQC5RDo_evFAL-2" value="Modules&lt;div&gt;1. Local Modules&lt;/div&gt;&lt;div&gt;2. Global Modules&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="455" y="8580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iz7ebvod_THW9GdJ_pQx-1" target="iz7ebvod_THW9GdJ_pQx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-1" value="Me" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="205" y="8680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iz7ebvod_THW9GdJ_pQx-2" target="iz7ebvod_THW9GdJ_pQx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-2" value="Manohar" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="335" y="8680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-3" value="GCP VM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="8810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iz7ebvod_THW9GdJ_pQx-6" target="iz7ebvod_THW9GdJ_pQx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-6" value="Probelms ?&lt;div&gt;Our state files are local&lt;/div&gt;&lt;div&gt;If we both try to work on the same resource at the same time ?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="465" y="8670" width="255" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iz7ebvod_THW9GdJ_pQx-7" target="iz7ebvod_THW9GdJ_pQx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-7" value="Solutions:&lt;div&gt;1. Store the TF state file at a global place&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. State Locking&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="8840" width="175" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-9" value="Backend Block" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="8900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-11" value="terraform force-unblock lockid" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="15" y="8860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iz7ebvod_THW9GdJ_pQx-12" value="Terraform import" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="165" y="9000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
