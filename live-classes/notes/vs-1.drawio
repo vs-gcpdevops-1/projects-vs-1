@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2">
   <diagram name="Page-1" id="V9nC6uB06fC6NqD5rrMz">
     <mxGraphModel dx="1644" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1119,127 +1119,148 @@
         <mxCell id="iz7ebvod_THW9GdJ_pQx-12" value="Terraform import" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="165" y="9000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-1" value="Yes, but to import we need to write the base skeleton template of the resource that we are trying to import" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-1" value="Yes, but to import we need to write the base skeleton template of the resource that we are trying to import" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="190" y="9090" width="193" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-2" target="sHxRQ1VtpvvSgiH3DegB-1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-2" target="sHxRQ1VtpvvSgiH3DegB-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-2" value="GCP Bucket" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-2" value="GCP Bucket" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="490" y="9080" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-4" target="sHxRQ1VtpvvSgiH3DegB-5">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-4" target="sHxRQ1VtpvvSgiH3DegB-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-4" value="Problems of the approach of Linux shell to host our 3 tier application&amp;nbsp;" style="shape=card;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-4" value="Problems of the approach of Linux shell to host our 3 tier application&amp;nbsp;" style="shape=card;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="85" y="9280" width="125" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-5" value="1. Individual Server login&lt;div&gt;2. Linux OS flavours&lt;/div&gt;&lt;div&gt;3. running cmds from cli&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-5" value="1. Individual Server login&lt;div&gt;2. Linux OS flavours&lt;/div&gt;&lt;div&gt;3. running cmds from cli&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="283" y="9280" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-7" target="sHxRQ1VtpvvSgiH3DegB-10">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-7" target="sHxRQ1VtpvvSgiH3DegB-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-7" target="sHxRQ1VtpvvSgiH3DegB-11">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-7" target="sHxRQ1VtpvvSgiH3DegB-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-7" value="Configuration Management" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-7" value="Configuration Management" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="195" y="9480" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-8" value="Efficiency&lt;div&gt;Automation&lt;/div&gt;&lt;div&gt;Consistency&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-8" value="Efficiency&lt;div&gt;Automation&lt;/div&gt;&lt;div&gt;Consistency&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="470" y="9490" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.587;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-7" target="sHxRQ1VtpvvSgiH3DegB-8">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.587;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-7" target="sHxRQ1VtpvvSgiH3DegB-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-10" target="sHxRQ1VtpvvSgiH3DegB-16">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-10" target="sHxRQ1VtpvvSgiH3DegB-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-10" value="Ansible" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-10" value="Ansible" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="100" y="9640" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-11" value="Puppet" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-11" value="Puppet" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="240" y="9640" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-12" value="Chef" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-12" value="Chef" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="380" y="9640" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-7" target="sHxRQ1VtpvvSgiH3DegB-12">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.617;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-7" target="sHxRQ1VtpvvSgiH3DegB-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-16" value="Ansible is an open source tool&lt;div&gt;Used for CM.&lt;/div&gt;&lt;div&gt;Written by Micheal DeHan&lt;/div&gt;&lt;div&gt;In 2015 , Redhat acquired Anisble and created their own Enterprise version&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-16" value="Ansible is an open source tool&lt;div&gt;Used for CM.&lt;/div&gt;&lt;div&gt;Written by Micheal DeHan&lt;/div&gt;&lt;div&gt;In 2015 , Redhat acquired Anisble and created their own Enterprise version&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-57.5" y="9750" width="295" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-17" value="Ansible developed by Miceal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-17" value="Ansible developed by Miceal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="255" y="9780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-18" target="sHxRQ1VtpvvSgiH3DegB-21">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-18" target="sHxRQ1VtpvvSgiH3DegB-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-18" value="Made it Opensource" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-18" value="Made it Opensource" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="9780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-19" target="sHxRQ1VtpvvSgiH3DegB-20">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-19" target="sHxRQ1VtpvvSgiH3DegB-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-19" value="Acquired it Redhat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-19" value="Acquired it Redhat" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="525" y="9780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-20" value="Ansible&lt;div&gt;7,8,9&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-20" value="Ansible&lt;div&gt;7,8,9&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="585" y="9680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-21" value="Ansible Core&lt;div&gt;v2.16 ,v2.18&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-21" value="Ansible Core&lt;div&gt;v2.16 ,v2.18&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="415" y="9880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-25" target="sHxRQ1VtpvvSgiH3DegB-26">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-25" target="sHxRQ1VtpvvSgiH3DegB-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-25">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="345" y="10180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sHxRQ1VtpvvSgiH3DegB-25" target="sHxRQ1VtpvvSgiH3DegB-34">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sHxRQ1VtpvvSgiH3DegB-25" target="sHxRQ1VtpvvSgiH3DegB-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-25" value="Master" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-25" value="Master" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="250" y="10020" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-26" value="Slave" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-26" value="Slave" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="490" y="10020" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-28" value="Slave" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-28" value="Slave" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="490" y="10120" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="sHxRQ1VtpvvSgiH3DegB-28">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="sHxRQ1VtpvvSgiH3DegB-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="10180" as="sourcePoint" />
             <mxPoint x="400" y="10130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-33" value="Protocol (ssh/winrm) +Inventory file" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-33" value="Protocol (ssh/winrm) +Inventory file" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="10080" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-34" value="&lt;p&gt;Ansible connects to machines via ssh/wirm + Inventory&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Ansible is agentless (we cannot make Windows as a Master Ansible Machine )&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Ansible works in push &amp;amp; pull Model&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-34" value="&lt;p&gt;Ansible connects to machines via ssh/wirm + Inventory&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Ansible is agentless (we cannot make Windows as a Master Ansible Machine )&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Ansible works in push &amp;amp; pull Model&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry y="10060" width="210" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-36" value="Python" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-36" value="Python" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="15" y="9650" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-37" value="ruby&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-37" value="ruby&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="9640" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-38" value="Push tool" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-38" value="Push tool" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="9695" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-39" value="Pull based too" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-39" value="Pull based too" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="323" y="9710" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-40" value="Agentless" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-40" value="Agentless" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="25" y="9720" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sHxRQ1VtpvvSgiH3DegB-41" value="Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sHxRQ1VtpvvSgiH3DegB-41" value="Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="9640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-1" value="Ansible Playbooks&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(YAML) files&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="445" y="10345" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d0Bk2kD24dIe_MwdfkSX-2" target="d0Bk2kD24dIe_MwdfkSX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-2" value="How do we dictate our operation from Ansible Master to slaves ?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Modules&lt;/div&gt;&lt;div&gt;2. Collections&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Collections &amp;gt; Modules&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="105" y="10280" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d0Bk2kD24dIe_MwdfkSX-4" target="d0Bk2kD24dIe_MwdfkSX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-4" value="s1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="10230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-5" value="s2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="10230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-7" value="https://www.tutorialspoint.com/yaml/index.htm&lt;br&gt;&lt;br&gt;https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="10470" width="162.5" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
