@@ -1,0 +1,49 @@
+Yaml have extension with .yml or .yaml
+
+It is a hierachy based syntactical tool..
+
+  hosts: all
+- name: Run a sample playbook
+  tasks:
+   - name: Execute command
+     command: apt-get install nginx 
+
+   - name: Install the latest version of Apache
+     ansible.builtin.dnf:
+        name: httpd
+        state: latest 
+
+    - name: Install the latest version of Apache
+     ansible.builtin.dnf:
+        name: httpd
+        state: latest     
+
+YAML has 3 types of values to reference-:
+1. String
+2. List
+3. Map
+
+Who is the parent object ?
+
+a:
+   b:
+      - suresh:
+          - city: mumbai
+          - works: engineering
+      -  manohar:
+           city: delhi
+           works: it
+      - e
+f:
+      "ghi"
+
+
+Ansible works on 'ansible' command line      
+
+ansible -i 34.67.29.174, all --private-key=key.pem -m ping
+
+ansible -i 34.67.29.174, all --private-key=key.pem -m apt
+ansible -i 34.67.29.174, all --private-key=key.pem -m cp
+
+Ansible Playbooks----
+
