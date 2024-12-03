@@ -1,0 +1,38 @@
+- name: Demo on vars
+  hosts: localhost
+  vars:
+    URL_PLAY: play.example.com
+  tasks:
+    - name: Task 1
+      ansible.builtin.debug:
+        msg: URL_PLAY - {{ URL_PLAY }}
+
+    - name: Task variable
+      ansible.builtin.debug:
+        msg: URL_TASK - {{ URL_TASK }}
+      vars:
+        URL_TASK: tasks.example.com  
+
+    - name: Testing Task variable
+      ansible.builtin.debug:
+        msg: URL_TASK - {{ URL_TASK }}
+
+    # Store result of a task, to OUTPUT variable
+    - name: demo
+      ansible.builtin.shell: uptime
+      register: xyz 
+
+    - name: Print OUTPUT of previous task
+      ansible.builtin.debug:
+        msg: "{{ xyz.stdout }}"       
+
+    
+#ansible-playbook var.yml -e "URL_TASK='He was'"   -- to tackle runtime variables with space values.
+    
+
+#We can utilise varibles in 3 scopes in Ansible:
+# 1. Global variable
+# 2. Local or Task variable
+# 3. User Defined variable ( Runtime variable)     
+
+# Jinja Syntax - {{ URL_PLAY }}
