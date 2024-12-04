@@ -1,0 +1,108 @@
+
+- name: MySQL Setup
+  hosts: mysql
+  become: yes
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  tasks:
+    - name: Install MySQL Server
+      ansible.builtin.apt:
+        name: mysql-server
+        state: latest
+        update_cache: yes
+
+    - name: Install pip3
+      ansible.builtin.apt:
+        name: python3-pip
+        state: latest    
+
+    - name: Install Python MySQL Client
+      ansible.builtin.pip:
+        name:
+          - PyMySQL
+          - cryptography
+        executable: pip3    
+
+    - name: Start MySQL Service
+      ansible.builtin.systemd:
+        name: mysql
+        state: started    
+        enabled: yes   
+
+    - name: Configure MySQL to listen on all IP addresses
+      ansible.builtin.lineinfile:
+        path: /etc/mysql/mysql.conf.d/mysqld.cnf
+        regexp: '^bind-address'
+        line: 'bind-address = 0.0.0.0'
+        state: present
+
+    - name: Restart MySQL Service to apply changes
+      ansible.builtin.systemd:
+        name: mysql
+        state: restarted
+
+    # - name: Check if MySQL root password is set
+    #   ansible.builtin.shell: |
+    #     mysql -u root -pExpenseApp@1 -e "SELECT 1;"
+    #   args:
+    #     executable: /bin/bash
+    #   register: mysql_root_check
+    #   ignore_errors: yes    
+
+    - name: Set MySQL root password if not set
+      ansible.builtin.shell: |
+        mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ExpenseApp@1';"
+      args:
+        executable: /bin/bash
+      # when: mysql_root_check.rc != 0  # Only run if the previous check failed   
+
+    - name: Flush MySQL privileges
+      ansible.builtin.shell: |
+        mysql -u root -pExpenseApp@1 -e "FLUSH PRIVILEGES;"
+      args:
+        executable: /bin/bash
+
+    - name: Create expense user
+      community.mysql.mysql_user:
+        name: 'root'
+        host: '%'
+        password: 'ExpenseApp@1'
+        state: present
+        login_user: root
+        login_password: 'ExpenseApp@1'
+        # column_case_sensitive: true    
+
+    - name: Grant all privileges to root user from any host
+      ansible.builtin.shell: |
+        mysql -u root -pExpenseApp@1 -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;"
+      args:
+        executable: /bin/bash  
+    
+
+    - name: Flush MySQL privileges
+      ansible.builtin.shell: |
+        mysql -u root -pExpenseApp@1 -e "FLUSH PRIVILEGES;"
+      args:
+        executable: /bin/bash    
+
+    - name: Create expense user
+      community.mysql.mysql_user:
+        name: 'expense'
+        host: '%'
+        password: 'ExpenseApp@1'
+        state: present
+        login_user: root
+        login_password: 'ExpenseApp@1'
+        # column_case_sensitive: true
+
+    - name: Grant all privileges on transactions database to expense user
+      ansible.builtin.shell: |
+        mysql -u root -pExpenseApp@1 -e "GRANT ALL PRIVILEGES ON transactions.* TO 'expense'@'%';"
+      args:
+        executable: /bin/bash  
+
+    - name: Flush MySQL privileges
+      ansible.builtin.shell: |
+        mysql -u root -pExpenseApp@1 -e "FLUSH PRIVILEGES;"
+      args:
+        executable: /bin/bash      
