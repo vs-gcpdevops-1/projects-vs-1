@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="V9nC6uB06fC6NqD5rrMz">
     <mxGraphModel dx="1644" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1241,26 +1241,53 @@
         <mxCell id="sHxRQ1VtpvvSgiH3DegB-41" value="Agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="9640" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d0Bk2kD24dIe_MwdfkSX-1" value="Ansible Playbooks&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(YAML) files&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-1" value="Ansible Playbooks&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(YAML) files&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="445" y="10345" width="115" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="d0Bk2kD24dIe_MwdfkSX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d0Bk2kD24dIe_MwdfkSX-2" target="d0Bk2kD24dIe_MwdfkSX-1">
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d0Bk2kD24dIe_MwdfkSX-2" target="d0Bk2kD24dIe_MwdfkSX-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d0Bk2kD24dIe_MwdfkSX-2" value="How do we dictate our operation from Ansible Master to slaves ?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Modules&lt;/div&gt;&lt;div&gt;2. Collections&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Collections &amp;gt; Modules&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-2" value="How do we dictate our operation from Ansible Master to slaves ?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Modules&lt;/div&gt;&lt;div&gt;2. Collections&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Collections &amp;gt; Modules&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="105" y="10280" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="d0Bk2kD24dIe_MwdfkSX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d0Bk2kD24dIe_MwdfkSX-4" target="d0Bk2kD24dIe_MwdfkSX-5">
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d0Bk2kD24dIe_MwdfkSX-4" target="d0Bk2kD24dIe_MwdfkSX-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d0Bk2kD24dIe_MwdfkSX-4" value="s1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-4" value="s1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="490" y="10230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d0Bk2kD24dIe_MwdfkSX-5" value="s2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="640" y="10230" width="80" height="80" as="geometry" />
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-5" value="s2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="700" y="10230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d0Bk2kD24dIe_MwdfkSX-7" value="https://www.tutorialspoint.com/yaml/index.htm&lt;br&gt;&lt;br&gt;https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="d0Bk2kD24dIe_MwdfkSX-7" value="https://www.tutorialspoint.com/yaml/index.htm&lt;br&gt;&lt;br&gt;https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="367.5" y="10470" width="162.5" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HJOwraih4LnXgQkEBgsy-1" value="SSH Auth set between them" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="580" y="10290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJOwraih4LnXgQkEBgsy-2" value=".pem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="10230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HJOwraih4LnXgQkEBgsy-4" value="variables&lt;br&gt;loops&lt;div&gt;condtions&lt;/div&gt;&lt;div&gt;register&lt;/div&gt;&lt;div&gt;debug&lt;/div&gt;&lt;div&gt;modules&lt;/div&gt;&lt;div&gt;collections&lt;/div&gt;&lt;div&gt;invetory&lt;/div&gt;&lt;div&gt;project&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="25" y="10570" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DwMG5R6rHqvTmRvjVwsB-1" target="DwMG5R6rHqvTmRvjVwsB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-1" value="Roles" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="10700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-2" value="DRY" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-3" value="Ansible Roles Structure&lt;div&gt;roles&amp;nbsp;&lt;/div&gt;&lt;div&gt;rolename&lt;/div&gt;&lt;div&gt;tasks&lt;/div&gt;&lt;div&gt;vars -&amp;gt; main.yml&lt;br&gt;&lt;br&gt;How to create roles ?&lt;/div&gt;&lt;div&gt;u can create folders according to use use-case&lt;/div&gt;&lt;div&gt;2. ansible-galaxy init role_name&lt;br&gt;&lt;br&gt;ansible-galaxy role install role_name&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="520" y="10700" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-5" value="Ansible-Playbooks&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;organizes tasks&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10840" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-6" value="Ansible roles&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;organizes playbooks&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="255" y="10840" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
