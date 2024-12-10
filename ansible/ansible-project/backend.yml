@@ -72,7 +72,7 @@
         target: /app/schema/backend.sql
         login_user: root
         login_password: ExpenseApp@1
-        login_host: 172.31.28.194
+        login_host: 10.128.0.27
       ignore_errors: yes  
 
     - name: Start Backend Service
