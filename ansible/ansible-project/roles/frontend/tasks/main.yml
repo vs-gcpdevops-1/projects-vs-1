@@ -1,0 +1,44 @@
+- name: Install Nginx
+  ansible.builtin.apt:
+    name: nginx
+    state: latest
+    update_cache: yes
+
+- name: Install unzip
+  ansible.builtin.apt:
+    name: unzip
+    state: present
+    update_cache: yes    
+
+- name: Copy Expense Nginx Configuration
+  ansible.builtin.copy:
+    src: expense.conf
+    dest: /etc/nginx/conf.d/expense.conf
+
+# - name: Enable Expense Nginx Configuration
+#   ansible.builtin.file:
+#     src: /etc/nginx/conf.d/expense.conf
+#     dest: /etc/nginx/conf.d/expense.conf
+#     state: link
+
+- name: Clean the old Content
+  ansible.builtin.file:
+    path: {{ app_loc }}
+    state: absent
+
+- name: Create App Directory
+  ansible.builtin.file:
+    path: {{ app_loc }}
+    state: directory
+
+- name: Download and Extract App Content
+  ansible.builtin.unarchive:
+    src: https://expense-artifacts.s3.amazonaws.com/expense-{{ component }}-v2.zip
+    dest: {{ app_loc }}
+    remote_src: yes
+
+- name: Start Nginx Service
+  ansible.builtin.systemd:
+    name: nginx
+    state: restarted
+    enabled: yes
