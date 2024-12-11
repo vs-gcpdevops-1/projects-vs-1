@@ -1271,23 +1271,89 @@
         <mxCell id="HJOwraih4LnXgQkEBgsy-4" value="variables&lt;br&gt;loops&lt;div&gt;condtions&lt;/div&gt;&lt;div&gt;register&lt;/div&gt;&lt;div&gt;debug&lt;/div&gt;&lt;div&gt;modules&lt;/div&gt;&lt;div&gt;collections&lt;/div&gt;&lt;div&gt;invetory&lt;/div&gt;&lt;div&gt;project&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="25" y="10570" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="DwMG5R6rHqvTmRvjVwsB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DwMG5R6rHqvTmRvjVwsB-1" target="DwMG5R6rHqvTmRvjVwsB-3">
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DwMG5R6rHqvTmRvjVwsB-1" target="DwMG5R6rHqvTmRvjVwsB-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DwMG5R6rHqvTmRvjVwsB-1" value="Roles" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-1" value="Roles" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="350" y="10700" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DwMG5R6rHqvTmRvjVwsB-2" value="DRY" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-2" value="DRY" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="10660" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DwMG5R6rHqvTmRvjVwsB-3" value="Ansible Roles Structure&lt;div&gt;roles&amp;nbsp;&lt;/div&gt;&lt;div&gt;rolename&lt;/div&gt;&lt;div&gt;tasks&lt;/div&gt;&lt;div&gt;vars -&amp;gt; main.yml&lt;br&gt;&lt;br&gt;How to create roles ?&lt;/div&gt;&lt;div&gt;u can create folders according to use use-case&lt;/div&gt;&lt;div&gt;2. ansible-galaxy init role_name&lt;br&gt;&lt;br&gt;ansible-galaxy role install role_name&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-3" value="Ansible Roles Structure&lt;div&gt;roles&amp;nbsp;&lt;/div&gt;&lt;div&gt;rolename&lt;/div&gt;&lt;div&gt;tasks&lt;/div&gt;&lt;div&gt;vars -&amp;gt; main.yml&lt;br&gt;&lt;br&gt;How to create roles ?&lt;/div&gt;&lt;div&gt;u can create folders according to use use-case&lt;/div&gt;&lt;div&gt;2. ansible-galaxy init role_name&lt;br&gt;&lt;br&gt;ansible-galaxy role install role_name&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
           <mxGeometry x="520" y="10700" width="220" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="DwMG5R6rHqvTmRvjVwsB-5" value="Ansible-Playbooks&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;organizes tasks&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-5" value="Ansible-Playbooks&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;organizes tasks&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="30" y="10840" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DwMG5R6rHqvTmRvjVwsB-6" value="Ansible roles&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;organizes playbooks&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="DwMG5R6rHqvTmRvjVwsB-6" value="Ansible roles&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;organizes playbooks&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="255" y="10840" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_jxsktYSWoeR1ZtpQPJt-1" target="_jxsktYSWoeR1ZtpQPJt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_jxsktYSWoeR1ZtpQPJt-1" target="_jxsktYSWoeR1ZtpQPJt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-1" value="services which can specify all the VM details at one time only and not specifying each time we create a VM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="11000" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-2" value="Instance Templates" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="175" y="11160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-3" value="Custom Image" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="330" y="11160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.392;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_jxsktYSWoeR1ZtpQPJt-1" target="_jxsktYSWoeR1ZtpQPJt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-7" value="Define the template to create VMs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="11150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_jxsktYSWoeR1ZtpQPJt-8" target="_jxsktYSWoeR1ZtpQPJt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-8" value="instance 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="545" y="11000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_jxsktYSWoeR1ZtpQPJt-9" target="_jxsktYSWoeR1ZtpQPJt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-9" value="Instance Template&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="11135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-11" value="n of VMS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="552.5" y="11240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_jxsktYSWoeR1ZtpQPJt-13" target="_jxsktYSWoeR1ZtpQPJt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-13" value="VM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="11280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_jxsktYSWoeR1ZtpQPJt-14" target="_jxsktYSWoeR1ZtpQPJt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-14" value="Ubuntu VM&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ansible&lt;/div&gt;&lt;div&gt;curl&lt;/div&gt;&lt;div&gt;zip&amp;nbsp;&lt;/div&gt;&lt;div&gt;nginx&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="11270" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-16" value="machine Image" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="328" y="11280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_jxsktYSWoeR1ZtpQPJt-18" target="_jxsktYSWoeR1ZtpQPJt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-18" value="Instance Groups" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="235" y="11420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-19" value="VM" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="11400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-20" value="Vm2, 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="665" y="11400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jxsktYSWoeR1ZtpQPJt-22" value="manage group of VM machines as a single entity" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="405" y="11410" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
