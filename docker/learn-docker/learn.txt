@@ -38,12 +38,12 @@ WORKDIR app --> change directory
 
 CMD 
 It is a keyword that is used to run commands to start the application inside the container during
-its initial start. ( app.jar --> java app.java // python app.py)
+its initial start. ( app.jar --> java app.jar // python app.py)
 
 
 ENTRYPOINT
 It is generally used to run commands , the moment the container initializes  along with multiple arguments.
-( java app.java --xms 1GB)
+( java app.jar --xms 1GB)
 
 ARGS
 It is a keyword that is used to define variables on ur Dockerfile.
