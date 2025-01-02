@@ -57,3 +57,39 @@ It is a keyword that is used to define variables on ur Dockerfile.
 
 ================================================================
 
+
+5 container....
+docker run (5 times.)
+
+----
+
+Docker-Compose  ( This is a tool that can help us to deploy containers at scale)
+
+* This can be controlled via the YAMLs.
+
+docker run --name nginxc -it -d  -p 8080:80 nginx
+
+version: '3' (optional field)
+services:  -- stands for holding the entire stack of  the containers list
+  container 1:
+    image: app:v1
+    ports:
+    - "8085:80"
+    name: nginx4
+    command : 
+  container 2:
+    image: image:v2
+    ports:
+    - "8084:80"
+    env:
+    - email: akas@gmail.command
+    - config: test
+    volumes:
+    - db_data:/app
+    restart:  always
+
+==========
+
+docker-compose.yml
+
+docker-compose up/down -d ---> Only One command to start,stop, restart all containers
