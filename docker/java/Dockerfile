@@ -7,10 +7,10 @@ LABEL version="1.0"
 LABEL description="A simple Java application"
 
 # working directory
-WORKDIR /app
+WORKDIR /usr/src/app/
 
 # Copy source code into the container
-COPY src/Main.java /app/Main.java
+COPY Main.java  /usr/src/app/
 
 # Compile the Java code
 RUN javac Main.java
