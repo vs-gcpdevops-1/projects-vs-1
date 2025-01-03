@@ -1,0 +1,10 @@
+docker volume create my-vol
+
+docker run -it --mount source=my-vol,destination=/app -d ubuntu
+
+cd /var/lib/docker/volumes/my-vol/_data
+
+
+====================
+
+docker run -it -v /home/pandirichandrasekharrao/app:/app -d ubuntu
