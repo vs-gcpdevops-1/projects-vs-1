@@ -20,7 +20,7 @@ services:
   web:
     build: app
     ports:
-    - 80:80
+    - 8082:80
   backend:
     build: flask
     ...
@@ -28,8 +28,8 @@ services:
     image: mongo
 ```
 The compose file defines an application with three services `web`, `backend` and `db`.
-When deploying the application, docker compose maps port 80 of the web service container to port 80 of the host as specified in the file.
-Make sure port 80 on the host is not being used by another container, otherwise the port should be changed.
+When deploying the application, docker compose maps port 8082 of the web service container to port 80 of the host as specified in the file.
+Make sure port 8082 on the host is not being used by another container, otherwise the port should be changed.
 
 ## Deploy with docker compose
 
@@ -59,9 +59,9 @@ dba87a080821        nginx-flask-mongo_backend   "./server.py"            About a
 d7eea5481c77        mongo                       "docker-entrypoint.s…"   About a minute ago   Up About a minute   27017/tcp              nginx-flask-mongo_mongo_1
 ```
 
-After the application starts, navigate to `http://localhost:80` in your web browser or run:
+After the application starts, navigate to `http://localhost:8082` in your web browser or run:
 ```
-$ curl localhost:80
+$ curl localhost:8082
 Hello from the MongoDB client!
 ```
 
