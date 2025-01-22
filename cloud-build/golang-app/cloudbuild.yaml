@@ -1,0 +1,55 @@
+
+steps:
+  # Run tests and save to file
+  - name: golang:1.23
+    entrypoint: /bin/bash
+    args: 
+      - -c
+      - |
+        go install github.com/jstemmer/go-junit-report/v2@latest
+        2>&1 go test -timeout 1m -v ./... | /go/bin/go-junit-report -set-exit-code -iocopy -out ${_SHORT_SHA}_test_log.xml
+  # [END cloudbuild_go_test_yaml]
+  
+  # [START cloudbuild_go_image_yaml]
+  # Docker Build
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 
+           'us-central1-docker.pkg.dev/$PROJECT_ID/$_AR_REPO_NAME/mygoimage:$_SHORT_SHA', '.']
+  # [END cloudbuild_go_image_yaml]
+  
+  # [START cloudbuild_go_push_yaml]
+  # Docker push to Google Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/$_AR_REPO_NAME/mygoimage:$_SHORT_SHA']
+  # [END cloudbuild_go_push_yaml]
+  
+  # [START cloudbuild_go_deploy_yaml]
+  # Deploy to Cloud Run
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['run', 'deploy', 'goapp-${_SHORT_SHA}', 
+           '--image=us-central1-docker.pkg.dev/$PROJECT_ID/$_AR_REPO_NAME/mygoimage:$_SHORT_SHA', 
+           '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated']
+  # [END cloudbuild_go_deploy_yaml]
+
+# [START cloudbuild_go_logs_yaml]
+# Save test logs to Google Cloud Storage
+artifacts:
+  objects:
+    location: gs://$_BUCKET_NAME/
+    paths:
+      - ${_SHORT_SHA}_test_log.xml
+# [END cloudbuild_go_logs_yaml]
+# Store images in Google Artifact Registry
+images:
+  - us-central1-docker.pkg.dev/$PROJECT_ID/$_AR_REPO_NAME/mygoimage:$_SHORT_SHA
+
+substitutions:
+  _AR_REPO_NAME: 'quickstart-docker-repo' 
+  _BUCKET_NAME: 'cloud-build-bucket-xxx'
+  _SHORT_SHA: 'latest'  # Add this if not using a Git-based trigger
+
+# options:
+#   logging: CLOUD_LOGGING_ONLY  
+
+tags: ['cloud-builders-community']     
+# [END cloudbuild_python_yaml]

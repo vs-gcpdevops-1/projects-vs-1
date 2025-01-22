@@ -1,0 +1,23 @@
+
+
+steps:
+  - name: maven:3-eclipse-temurin-17-alpine
+    entrypoint: mvn
+    args: ["test"]
+    # dir: "maven-example"
+  - name: maven:3-eclipse-temurin-17-alpine
+    entrypoint: mvn
+    args: ["package", "-Dmaven.test.skip=true"]
+    # dir: "maven-example"
+  - name: gcr.io/cloud-builders/docker
+    args: ["build", "-t", "us-central1-docker.pkg.dev/$PROJECT_ID/$_REPO_NAME/hellospringapp", "--build-arg=JAR_FILE=target/hello-spring-1.0.0.jar", "."]
+    # dir: "maven-example"
+
+
+images: ["us-central1-docker.pkg.dev/$PROJECT_ID/$_REPO_NAME/hellospringapp"]
+
+substitutions:
+  _REPO_NAME: 'quickstart-docker-repo' 
+  # _BUCKET_NAME: 'cloud-build-bucket-xxx'
+# options:
+#   logging: CLOUD_LOGGING_ONLY  

@@ -1,0 +1,37 @@
+CLoud Build depends on a YAML fil name 'cloudbuild.yaml'
+
+Contains build configs or in very simple words it contains tasks.
+
+1.
+steps:
+
+The steps section in the build config file contains the build steps that you want Cloud Build to perform.
+
+steps:
+ - name: { Decides the entrypoint of the task}
+
+eg:
+ steps:
+- name: 'gcr.io/cloud-builders/docker' 
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/${PROJECT_ID}/my-docker-repo/my-image', '.']
+
+What cloudbuild does in the background ?
+docker build -t ...... 
+
+ steps:
+    - name: 'gcr.io/cloud-builders/docker' 
+      args: ['build', '-t', 'us-central1-docker.pkg.dev/${PROJECT_ID}/my-docker-repo/my-image', '.']
+
+    - name: 'gcr.io/cloud-builders/docker'
+      args: ['push', 'us-central1-docker.pkg.dev/${PROJECT_ID}/my-docker-repo/my-image']
+
+    - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+      id: Deployment Task
+      entrypoint: 'gcloud'
+      timeout: 240s
+      args: ['compute', 'instances', 'create-with-container', 'my-vm-name', '--container-image', 'us-central1-docker.pkg.dev/${PROJECT_ID}/my-docker-repo/my-image']
+      env:
+        - 'CLOUDSDK_COMPUTE_REGION=us-central1'
+        - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
+
+    dir --- when u want to use directory    
